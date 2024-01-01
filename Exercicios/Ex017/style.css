@@ -1,0 +1,15 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: "Beaming";
+    src: url("Fontes/Beaming.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Beaming", Helvetica, sans-serif;
+}
+h1 {
+    font-family: "Beaming", Times, serif;
+    font-size: 3em;
+}

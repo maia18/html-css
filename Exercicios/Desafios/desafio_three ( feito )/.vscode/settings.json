@@ -1,0 +1,11 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingComments": "always",
+    "editor.autoSurround": "languageDefined",
+    "editor.columnSelection": false,
+    "editor.wordWrap": "on",
+    "emmet.excludeLanguages": [
+        "lang=\"pt-br\""
+    ]
+}
