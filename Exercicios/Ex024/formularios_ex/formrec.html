@@ -15,7 +15,7 @@
                 <form action="Exercicios\Ex024\cadastro.php" method="get" autocomplete="on">
                     <p id="data_rec">
                         <label for="idata">Data de Reclamação</label>
-                        <input type="date" name="data" id="idata" required value="2024-01-01">
+                        <input type="date" name="data" id="idata" required value="2024-01-01">  
                     </p>
                     <p id="Nome_">
                         <label for="inome">Nome</label>
@@ -298,7 +298,7 @@
                             </select>
                     </p>
                     <p id="data_rep">
-                        <label for="idata2">Data do incidente reportado</label>
+                        <label for="idata2">Data do incidente <br>reportado</label>
                         <input type="date" name="data2" id="idata2" required value="2024-01-01">
                     </p>
                     <p id="loc_inc">
@@ -314,13 +314,13 @@
                         <input type="text" name="res" id="ires" required>
                         <p id="Dica">Sugira os passos que devem ser tomados para evitar uma repetição do problema</p>
                     </p>
-                    <p>
+                    <p id="Assinatura">
                         <legend>Sua assinatura</legend>
                         <input type="text" name="assin" id="iassin" required>
                     </p>
             </fieldset>
-
-                <p>
+                <p id="Dica2">Ao assinar voçê declara que todas as informações que voçê inseriu são verdadeiras e precisas</p>
+                <p id="Envio">
                     <input type="submit" value="Enviar reclamação">
                 </p>
                 </form>
