@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Reclamação</h1>
+    <p>Por favor, nos envie os detalhes sobre o incidente que voçê gostaria de reportar. Nosso Centro de Reclamações analisará o seu analisará o seu feedback e tomar as medidas apropriadas para que a situação reportada não ocorra nenhum outra vez no futuro</p>
+    <form action="Exercicios\Ex024\cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="idata">Data de Reclamação</label> 
+            <input type="date" name="data" id="idata" required>   
+        </p>
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" placeholder="Nome" required autocomplete="name" minlength="3">
+            <input type="text" name="nome" id="inome" placeholder="Último" required autocomplete="name" minlength="3">
+        </p>
+        <p>
+            <label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail" required autocomplete="email">
+        </p>
+        <p>
+            <label for="iend">Endereço</label>
+            <input type="text" name="end" id="iend" placeholder="Endereço" required>
+            <p id="endereço2">
+                <label for="iend2">|...............</label>
+                <input type="text" name="end2" id="iend2" placeholder="Endereço Linha 2" required>
+            </p>
+            <p id="Cidade">
+                <label for="icid">|...............</label>
+                <input type="text" name="cid" id="icid" placeholder="Cidade" required>
+                <label for="ireg"></label>
+                <input type="text" name="reg" id="ireg" placeholder="Região" required> 
+            </p>
+            <p id="CEP">
+                <label for="icep">|...............</label>
+                <input type="text" name="cep" id="icep" placeholder="CEP / Código Postal" required>
+                <label for="Ipais"></label>
+                <input type="text" name="pais" id="ipais" placeholder="País" required>
+        </p>
+        <p>
+            <label for=""></label>
+        </p>
+        <p>
+            <label for=""></label>
+        </p>
+        <p>
+            <label for=""></label>
+        </p>
+        <p>
+            <label for=""></label>
+        </p>
+        <p>
+            <label for=""></label>
+        </p>
+        <p>
+            
+        </p>
+    </form>
+</body>
+</html>
