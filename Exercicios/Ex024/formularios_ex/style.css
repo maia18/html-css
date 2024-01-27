@@ -52,12 +52,13 @@ p#endereço label{
     padding-right: 8.1vw;
 }
 
-p#endereço2 label, p#Cidade label,p#CEP label, select {
+p#endereço2 label, p#Cidade label,p#CEP label{
     padding-right: 13.59vw;
 }
  
 select {
-    width: 20vw;
+    height: 100%;
+    width: 14.9vw;
 }
 
 
