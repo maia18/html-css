@@ -1,0 +1,49 @@
+###########################################################################################
+--- background: background-color background-image background-repeat background-position ---
+
+1ºex{
+    background-color: #000;
+    background-image: url(images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    background: #000 url(images/bg.gif) no-repeat top right;
+}
+###########################################################################################
+--- font: font-style font-weight font-size line-height font-family ---
+
+2ºex{
+    font-style: italic;
+    font-weight: bold;
+    font-size: .8em;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;        
+
+    font: italic bold .8em/1.2 Arial, sans-serif; 
+}
+###########################################################################################
+--- border: border-width border-style border-color ---
+
+3ºex{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+
+    border: 1px solid #000;
+}
+###########################################################################################
+--- margin:  margin-top margin-right margin-bottom margin-left ---
+--- padding: padding-top padding-right padding-bottom padding-left ---
+
+4ºex{
+    margin-top: padding-top: 10px; 
+    margin-right: padding-right: 5px;
+    margin-bottom: padding-bottom: 10px;
+    margin-left: padding-left: 5px;
+
+    margin: 10px 5px 10px 5px
+    padding: 10px 5px 10px 5px
+}
+###########################################################################################
+
+Acesso: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Shorthand_properties
