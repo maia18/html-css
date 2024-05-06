@@ -1,0 +1,63 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background: black url("img/pexels-photo-943096.jpeg") top center no-repeat;
+    background-size: cover;
+}
+/* Portrait configuration */
+@media screen and (orientation: portrait) {
+    body {
+        text-align: center;
+        header {
+            font-weight: bold;
+            font-size: 3.5vw;
+            padding: 10px;
+        }
+        p{
+            padding: 10px;
+            margin: 10px;
+        }
+        a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        background: black url("img/pexels-photo-374559.jpeg") top center no-repeat;
+        background-size: cover;    
+    }
+}
+/* Landscape configuration */
+@media screen and (orientation: landscape) {
+    body {
+        text-align: center;
+        header {
+            font-weight: bold;
+            font-size: 2vw;
+            padding: 10px;
+        }
+        p{
+            padding: 10px;
+            margin: 10px;
+        }
+        a{
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        background: black url("img/pexels-photo-943096.jpeg") top center no-repeat;
+        background-size: cover;    
+    }
+}
