@@ -67,5 +67,4 @@ p, a {
 a:hover{
     color: white;
     transition: all 800ms;
-    /* text-decoration: underline; */
 }
