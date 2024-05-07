@@ -1,63 +1,71 @@
 @charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body, html {
     width: 100vw;
     height: 100vh;
-    color: white;
-    background: black url("img/pexels-photo-943096.jpeg") top center no-repeat;
-    background-size: cover;
 }
-/* Portrait configuration */
-@media screen and (orientation: portrait) {
-    body {
-        text-align: center;
-        header {
-            font-weight: bold;
-            font-size: 3.5vw;
-            padding: 10px;
-        }
-        p{
-            padding: 10px;
-            margin: 10px;
-        }
-        a{
-            color: white;
-            font-size: 20px;
-            text-decoration: none;
-        }
-        a:hover{
-            text-decoration: underline;
-        }
-        background: black url("img/pexels-photo-374559.jpeg") top center no-repeat;
-        background-size: cover;    
-    }
+header > h1 {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
 }
-/* Landscape configuration */
+/* Landscape Configurations */
 @media screen and (orientation: landscape) {
     body {
-        text-align: center;
-        header {
+        main {
+            background-color: rgba(65, 64, 64, 0.096);
+            width: 40%;
+            margin: auto;
+        }
+        h1 {
+            font-weight: bolder;
+            font-size: 3.5vw;
+        }
+        p, a{
             font-weight: bold;
             font-size: 2vw;
-            padding: 10px;
+            margin: 4vw;
         }
-        p{
-            padding: 10px;
-            margin: 10px;
-        }
-        a{
-            color: white;
-            font-size: 20px;
-            text-decoration: none;
-        }
-        a:hover{
-            text-decoration: underline;
-        }
-        background: black url("img/pexels-photo-943096.jpeg") top center no-repeat;
-        background-size: cover;    
+        background: black url("img/pexels-photo-943096.jpeg") top right no-repeat;
+        background-size: cover;
     }
+}
+/* Portrait Configurations */
+@media screen and (orientation: portrait) {
+    body {
+        main {
+            background-color: rgba(65, 64, 64, 0.096);
+            width: 60%;
+            margin: auto;
+        }
+        h1 {
+            font-weight: bolder;
+            font-size: 5vw;
+        }
+        p, a{
+            font-weight: bold;
+            font-size: 3vw;
+            margin: 6vw;
+        }
+        background: black url("img/pexels-photo-374559.jpeg") top right no-repeat;
+        background-size: cover;
+    }
+}
+p, a {
+    text-align: center;
+    color: rgba(2, 2, 179, 0.678);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    transition: all 800ms;
+    /* text-decoration: underline; */
 }
