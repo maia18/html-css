@@ -1,4 +1,0 @@
-Especificidade:
-1º Style ---> 2º ID ---> 3º Classes, atributos e pseudo-classes ---> 4º Elementos e pseudo-elementos 
-
-!important
