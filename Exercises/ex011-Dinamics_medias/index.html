@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamic Medias</title>
+</head>
+<body>
+    <h1>Dinamic Medias</h1>
+    <h2>Dinamic Images</h2>
+    <p>Try open this arquive in several devices or just to increase or decrease the len of your navegator</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/Image_P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/Image_M.png" type="image/png">
+        <img src="images/Image_G.png" alt="Image_G.png">
+    </picture>
+    
+    <h2>Reproducing Songs</h2>
+    <p>Let's learn reproducing songs in HTML</p>
+    <!-- <audio src="medias/happy-mistake.mp3" controls autoplay loop></audio> -->
+    <audio preload="metadata" controls>
+        <source src="medias/songs/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Working with videos</h2>
+    <p>This video is host in my own server</p>
+    <!-- <video src="medias/videos/20600550-hd_1280_720_30fps.mp4" width="650px" controls></video> -->
+    <video width="650px" poster="images/Moon-Aesthetic-Wallpaper-Pc-56756.jpg" ontrols autoplay loop>
+        <source src="medias/videos/20600550-hd_1280_720_30fps.mp4" type="video/mp4">
+    </video>
+    <h3>Inserting videos from Youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=fZgUoeZsYnH35enq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    <p><a href="https://handbrake.fr/" target="_blank" rel="external">HandBrake</a> - Video Editor</p>
+    <hr>
+</body>
+</html>
