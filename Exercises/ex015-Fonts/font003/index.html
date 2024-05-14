@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Fonts</title>
+    <style>
+        @font-face {
+            font-family: 'beaming'; 
+            src: url('Fonts/beaming/Beaming.otf') format('opentype');
+            /* Format types: 
+                opentype (otf)
+                truetype (ttf)
+                embedded-opentype
+                truetype-aat (Apple Advanced Typography)
+                svg */
+            font-weight: bold;
+        }
+        @font-face {
+            font-family: 'love';
+            src: url('Fonts/love_story_2/love\ story\ ttf.ttf') format('truetype');
+        }
+        body {
+            font-family: 'love', sans-serif;
+            font-size: 1em;
+            text-align: justify;
+        }
+        h1 {
+            font-family: 'beaming', sans-serif;
+            font-size: 5em;
+            text-align: center;
+        }
+        li {
+            font-size: 1.5em;
+            text-align: center;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Title</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure totam, explicabo vitae molestiae dicta tempore, culpa dolores aut consequatur aperiam similique neque molestias. Doloribus dolorem animi, modi dignissimos aperiam obcaecati.</p>
+    <hr>
+    <ul>
+        <li><a href="https://www.dafont.com/pt/" target="_blank" rel="external">DaFont</a></li>
+        <li><a href="https://www.whatfontis.com/" target="_blank" rel="external">Whatfontis</a></li>
+        <li><a href="https://www.fontsquirrel.com/" target="_blank" rel="external">FontsSquirrel</a></li>
+        <li><a href="https://www.myfonts.com/" target="_blank" rel="external">MyFonts</a></li>
+    </ul>
+    <hr>
+</body>
+</html>
