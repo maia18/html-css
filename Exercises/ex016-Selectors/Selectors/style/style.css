@@ -19,3 +19,15 @@ h1#main {
 h2 {
     color: rgb(68, 247, 68);
 }
+.basic {
+    color: rgb(2, 255, 171);
+}
+.Intermediate {
+    color: rgb(7, 104, 107);
+}
+.Advanced {
+    color: rgb(209, 188, 188);
+}
+.emphasis {
+    background-color: rgb(80, 29, 29);
+}
