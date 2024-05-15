@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkblue;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::after {
+            content: ' \002729';
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        .especial::before {
+            color: black;
+            content: '\002605 ';
+        }
+        .especial::after {
+            color: black;
+            content: ' \002605';
+        }
+        p{
+            font-size: 2em;
+            text-align: center;
+        }
+        #MentalMap::after {
+            content: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizing Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Github Repository</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank" rel="external" class="especial">Youtube Channel</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Cursoemvideo Site</a></li>
+    </ul>
+    <hr>
+    <p><a href="https://erikasarti.com/html/dingbats-simbolos-desenhos/" target="_blank" rel="external" id="MentalMap">Symbols HTML5</a></p>
+    <hr>
+</body>
+</html>

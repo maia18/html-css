@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(114, 113, 113);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(139, 139, 139);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="business">
+            <p>Sports Policy Technology </p>
+        </section>
+        <section id="News">
+            <article>
+                <h2>News about Brazil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis iste minus dignissimos alias, autem recusandae laboriosam. Esse dolores ipsum, nihil sed iste qui totam, similique repudiandae consequuntur eum recusandae nobis.</p>
+                <aside>
+                    <p>Article writes by José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by CursoEmVideo</p>
+    </footer>
+</body>
+</html>
