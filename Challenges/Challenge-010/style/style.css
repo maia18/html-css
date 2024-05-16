@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('/Challenges/Challenge-010/fonts/idroid.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* html, body {
+    height: 100vh;
+    width: 100vw;
+} */
+header {
+    background-image: linear-gradient(to top, rgb(0, 37, 0), rgb(2, 218, 135));
+    margin: auto;
+    color: white;
+    box-shadow: 1px 1px 20px black;
+}
+header > h1{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.8em;
+    padding: 20px;
+}
+header > p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding-bottom:25px;
+}
+header > nav {
+    padding-bottom: 6px;
+    text-indent: 6px;
+}
+header > nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+header > nav a:hover {
+    text-decoration: underline;
+    color: rgba(0, 214, 0, 0.514);
+    transition: 1s ease-out;
+}
+
+main {
+    background-color:rgb(151, 255, 198);
+}
+section {
+    background-color: white;
+    width: 60vw;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;    
+}
+section > h1 {
+    font-family: 'idroid';
+    font-size: 25px;
+    color: rgb(0, 87, 0);
+    padding-bottom: 10px;
+}
+section > p {
+    text-indent: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+section > h2 {
+    background-image: linear-gradient(to right, rgba(151, 255, 198, 0.63), transparent);
+    font-family: 'idroid';
+    color: rgb(0, 87, 0);
+    margin: 16px 0;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+}

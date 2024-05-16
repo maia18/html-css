@@ -1,70 +1,70 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-body, html {
-    width: 100vw;
+
+/* body, html{
     height: 100vh;
-}
-header > h1 {
-    color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin: auto;
-}
-/* Landscape Configurations */
-@media screen and (orientation: landscape) {
-    body {
-        main {
-            background-color: rgba(65, 64, 64, 0.096);
-            width: 40%;
-            margin: auto;
-        }
-        h1 {
-            font-weight: bolder;
-            font-size: 3.5vw;
-        }
-        p, a{
-            font-weight: bold;
-            font-size: 2vw;
-            margin: 4vw;
-        }
-        background: black url("img/pexels-photo-943096.jpeg") top right no-repeat;
+    width: 100vw;   
+} */
+
+@media screen and (orientation:landscape) {
+    header {
+        background: #000 url('img/landscape.jpg') no-repeat center;
         background-size: cover;
+        text-align: center;   
+        margin: auto;
     }
-}
-/* Portrait Configurations */
-@media screen and (orientation: portrait) {
-    body {
-        main {
-            background-color: rgba(65, 64, 64, 0.096);
-            width: 60%;
-            margin: auto;
-        }
-        h1 {
-            font-weight: bolder;
-            font-size: 5vw;
-        }
-        p, a{
-            font-weight: bold;
-            font-size: 3vw;
-            margin: 6vw;
-        }
-        background: black url("img/pexels-photo-374559.jpeg") top right no-repeat;
-        background-size: cover;
+    header > h1 {
+        padding-top: 10vh;
+        color: white;
+        font-size: 6vh;
+        font-family: 'Source Code Pro'
     }
-}
-p, a {
-    text-align: center;
-    color: rgba(2, 2, 179, 0.678);
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: none;
-}
-a:hover{
-    color: white;
-    transition: all 800ms;
+    header > nav{
+        color: white;
+        text-align: center;
+        padding: 2vh 0 5vh 0;
+    } 
+    nav > a {
+        color: white;
+        font-size: 2vh;
+        font-family: 'Source Code Pro';
+        text-decoration: none;
+    }
+    nav > a:hover {
+        text-decoration: underline;
+        color: red;
+        transition: 900ms ease-out;
+    }
+    main {
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+    }
+    h2 {
+        padding: 20px 0 20px 0;
+    }
+    div{
+        text-align: center;
+    }
+    ul{
+        padding: 20px 0;
+        list-style: none;
+    }
+    li > a {
+        color: black;
+        font-size: 2vh;
+        font-family: 'Source Code Pro';
+        text-decoration: none;
+    }
+    li > a:hover {
+        text-decoration: underline;
+        color: red;
+        transition: 900ms ease-out;
+    }
 }
