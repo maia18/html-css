@@ -11,11 +11,10 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* html, body {
-    height: 100vh;
-    width: 100vw;
-} */
+body, html {
+    height: 100%;
+    width: 100%;
+}
 header {
     background-image: linear-gradient(to top, rgb(0, 37, 0), rgb(2, 218, 135));
     margin: auto;
@@ -25,14 +24,15 @@ header {
 header > h1{
     text-align: center;
     font-family: 'Oswald';
-    font-size: 1.8em;
-    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 20px 0;
 }
 header > p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    padding-bottom:25px;
+    font-size: 16px;
+    padding: 20px 20px 40px;
 }
 header > nav {
     padding-bottom: 6px;
@@ -51,36 +51,126 @@ header > nav a:hover {
     color: rgba(0, 214, 0, 0.514);
     transition: 1s ease-out;
 }
-
 main {
     background-color:rgb(151, 255, 198);
+    padding-bottom: 20px;
+}
+main strong {
+    color: rgb(1, 134, 18);
+    font-weight: bold;
+}
+main a {
+    background-image: linear-gradient(to right, rgba(151, 255, 198, 0.63), transparent);
+    text-decoration: none;
+    color: rgb(1, 134, 18);
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main a:hover {
+    text-decoration: underline;
+    color: rgb(1, 73, 1);
+    transition: 1s ease-out;
 }
 section {
     background-color: white;
-    width: 60vw;
+    width: 50%;
     margin: auto;
     padding: 20px;
     text-align: justify;    
 }
 section > h1 {
     font-family: 'idroid';
-    font-size: 25px;
+    font-size: 2.476vw;
     color: rgb(0, 87, 0);
     padding-bottom: 10px;
 }
 section > p {
     text-indent: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 section > h2 {
     background-image: linear-gradient(to right, rgba(151, 255, 198, 0.63), transparent);
     font-family: 'idroid';
     color: rgb(0, 87, 0);
     margin: 16px 0;
+    font-size: 2vw;
 }
 img{
     width: 100%;
     display: block;
     margin: 20px auto;
+}
+picture#bugdroid > img {
+    margin: auto;
+    width: 30vw;
+}
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 27vw;
+}
+section#video_ {
+    background-color: rgb(0, 87, 0);
+    width: 50%;
+}
+section#final_section {
+    box-shadow: 0px 1px 2px black;
+    text-align: justify;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+section#final_section > p {
+    background-color: rgb(0, 141, 63);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 0;
+    text-indent: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+section#final_section > div {
+    background-color: rgb(151, 255, 198);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 1px 2px black;
+}
+ol {
+    list-style: none;
+    column-count: 2;
+}
+ol > li::before {
+    content:"\002714 ";
+    font-weight: bold;
+    padding: 0 10px;
+}
+section#final_section > div > p {
+    padding: 10px;
+    font-size: 20px;
+    text-indent: 32px;
+}
+article > aside {
+    padding-top: 20px;
+    text-indent: 32px;
+    text-align: justify;
+}
+footer {
+    background-color: rgb(0, 87, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(4, 148, 4);
+    transition: 500ms ease-out;
 }
