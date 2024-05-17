@@ -141,6 +141,9 @@ ol {
     list-style: none;
     column-count: 2;
 }
+li {
+    font-size: 14.5px;
+}
 ol > li::before {
     content:"\002714 ";
     font-weight: bold;
