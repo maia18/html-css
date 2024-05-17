@@ -54,6 +54,7 @@ header > nav a:hover {
 main {
     background-color:rgb(151, 255, 198);
     padding-bottom: 20px;
+
 }
 main strong {
     color: rgb(1, 134, 18);
@@ -72,8 +73,8 @@ main a:hover {
     transition: 1s ease-out;
 }
 section {
+    width: 50vw;
     background-color: white;
-    width: 50%;
     margin: auto;
     padding: 20px;
     text-align: justify;    
