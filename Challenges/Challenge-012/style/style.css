@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Colors, fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --color001: #0c330a49;
+    --color002: #D1D9CC;
+    --color003: #6B735C;
+    --color004: #9EA68D;
+    --font-cordel: 'Sriracha', cursive;
+    --font-special: 'Passion One'
+}
+
+/* Global configurations */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header configurations */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    font-family: var(--font-special);
+    padding-top: 40px;
+    font-size: 7vw;
+}
+header > p {
+    padding: 10px 0 40px 0;
+    font-size: 1em;
+}
+header > p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+header > p a:hover {
+    text-decoration: underline;
+}
+
+/* main configurations */
+
+main {
+    display: block;
+    /* height: 100vh; */
+}
+
+main section > p{
+    font-family: var(--font-cordel);
+    font-size: 2.5vw;
+
+
+}
+main > section#natural > p {
+    background-color: var(--color001);
+    color: white;
+    width: 50%;
+} 
+main > section#natural {
+    background: transparent url('../images/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+}
+main > section#books {
+    background: transparent url('../images/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
