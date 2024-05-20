@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Background screen fixed</title>
     <style>
         body {
-            height: 96vh;
-            background-color: black;
-            background-image: url('/Exercises/ex019-Backgrounds/images/wallpaper002.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
+            height: 100vh;
+            /* background: color image position repeat *size* attachment; */
+            background: black url('/Exercises/ex019-Backgrounds/images/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px lightcoral solid;
