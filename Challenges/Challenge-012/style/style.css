@@ -70,7 +70,7 @@ main > div.image {
     color: white;
 }
 main > div#natural {
-    background: black url('../images/background001.jpg') right center no-repeat fixed;
+    background: black url('../images/background001.jpg') no-repeat right center fixed;
     background-size: cover;
 }
 main > div#natural p{
@@ -81,7 +81,7 @@ main > div#natural p{
     text-align: justify;
 }
 main > div#books {
-    background: black url('../images/background002.jpg') right center no-repeat fixed;
+    background: black url('../images/background002.jpg') no-repeat right center fixed;
     background-size: cover;
 }
 main > div#books p{
