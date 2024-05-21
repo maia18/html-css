@@ -6,10 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --color001: hsla(119, 48%, 19%, 0.151);
-    --color002: #D1D9CC;
-    --color003: hsla(81, 11%, 41%, 0.400);
-    --color004: #9EA68D;
+    --color001: hsla(120, 60%, 1%, 0.493);
+    --color002: hsla(81, 11%, 25%, 0.514);
     --font-cordel: 'Sriracha', cursive;
     --font-special: 'Passion One'
 }
@@ -21,10 +19,10 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* html, body {
-    width: 97vw;
+html, body {
+    width: 100%;
     height: 100vh;
-}  */
+} 
 
 /* Header configurations */
 
@@ -36,7 +34,7 @@ header {
 header > h1 {
     font-family: var(--font-special);
     padding-top: 40px;
-    font-size: 7vw;
+    font-size: 9vw;
 }
 header > p {
     padding: 10px 0 40px 0;
@@ -60,30 +58,38 @@ main {
 }
 main p {
     font-family: var(--font-cordel);
-    font-size: 3.5vh;
-    padding: 3vw;
+    font-size: 3.35vw;
+    padding: 8vh 4vw;
 }
 main > div.image {
-    height: 90vh;
+    min-height: 40vh;
+    min-width: 40%;
+    max-height: 100vh;
+    max-width: 100vw;
+    padding: 10vh 0;
     color: white;
 }
 main > div#natural {
     background: black url('../images/background001.jpg') right center no-repeat fixed;
     background-size: cover;
-    padding: 10vh 0;
 }
 main > div#natural p{
     background-color: var(--color001);
-    width: 400px;
+    width: 40vw;
+    padding: 0;
+    margin: 4vh 4vw;
+    text-align: justify;
 }
 main > div#books {
     background: black url('../images/background002.jpg') right center no-repeat fixed;
     background-size: cover;
-    padding: 10vh 0;
 }
 main > div#books p{
-    background-color: var(--color003);
-    width: 400px;
+    background-color: var(--color002);
+    width: 40vw;
+    padding: 0;
+    margin: 4vh 4vw;
+    text-align: justify;
 }
 
 /* footer configurations */
