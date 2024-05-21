@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --color001: #0c330a49;
+    --color001: hsla(119, 48%, 19%, 0.151);
     --color002: #D1D9CC;
-    --color003: #6B735C;
+    --color003: hsla(81, 11%, 41%, 0.400);
     --color004: #9EA68D;
     --font-cordel: 'Sriracha', cursive;
     --font-special: 'Passion One'
@@ -55,25 +55,37 @@ header > p a:hover {
 /* main configurations */
 
 main {
-    background-color: red;
+    background-color: white;
+    color: black;
+}
+main p {
+    font-family: var(--font-cordel);
+    font-size: 3.5vh;
+    padding: 3vw;
+}
+main > div.image {
+    height: 90vh;
     color: white;
 }
-main > p {
-    font-family: var(--font-cordel);
-    font-size: 4vh;
-    padding: 30px;
-}
-main > p.image {
-    height: 100vh;
-}
-main > p#natural {
+main > div#natural {
     background: black url('../images/background001.jpg') right center no-repeat fixed;
     background-size: cover;
+    padding: 10vh 0;
 }
-main > p#books {
+main > div#natural p{
+    background-color: var(--color001);
+    width: 400px;
+}
+main > div#books {
     background: black url('../images/background002.jpg') right center no-repeat fixed;
     background-size: cover;
+    padding: 10vh 0;
 }
+main > div#books p{
+    background-color: var(--color003);
+    width: 400px;
+}
+
 /* footer configurations */
 
 footer {
