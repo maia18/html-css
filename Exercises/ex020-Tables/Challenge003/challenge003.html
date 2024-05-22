@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+        }
+        tr, th, td {
+            border: 1px solid black;
+            padding: 4px;
+        }
+        th, td.average_note {
+            background-color: gray;
+            color: white;
+            text-align: center;
+        }
+        th.area {
+            background-color: white;
+            color: black;
+        }
+        th.average, td.areas {
+            color: white;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        td.areas{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2" scope="col">Subject</th>
+                <th colspan="2" scope="colgroup">Notes</th>
+                <th rowspan="2" scope="col">Average</th>
+            </tr>
+            <tr>
+                <th scope="col">Note 1</th>
+                <th scope="col">Note 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" class="area"  scope="rowgroup">Exact Sciences</th>
+                <td class="areas">Math</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="areas">Physic</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="areas">Chemical</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="areas">Biology</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="average" scope="row">Exact Sciences Average</th>
+                <td class="average_note">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" class="area" scope="rowgroup">Human Sciences</th>
+                <td class="areas">History</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="areas">Geography</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="average" scope="row">Human Sciences Average</th>
+                <td class="average_note">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
