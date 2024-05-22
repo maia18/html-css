@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cname {
+            background-color: rgb(175, 175, 175);
+        }
+        col.cgroup {
+            background-color: rgb(212, 255, 126);
+        }
+        col.cprofession {
+            background-color: rgb(147, 202, 204);
+        }
+    </style>
+</head>
+<body>
+    <h1>Table exercise</h1>
+    <table>
+        <colgroup>
+            <col class="cname">
+            <col class="cgroup" span="2">
+            <!-- <col class="cage"> -->
+            <col class="cprofession">
+        </colgroup>
+        <caption>Registration</caption>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Sex</th>
+            <th scope="col">Age</th>
+            <th scope="col">Profession</th>
+        </tr>
+        <tr>
+            <td>Paulo Marques</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Administration</td>
+        </tr>
+        <tr>
+            <td>Cláudio Vieira</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Teacher</td>
+        </tr>
+        <tr>
+            <td>Gustavo Sarney</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Actor</td>
+        </tr>
+        <tr>
+            <td>Beatriz Santos</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Programmer</td>
+        </tr>
+        <tr>
+            <td>Joyce Bianca</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Journalist</td>
+        </tr>
+        <tr>
+            <td>Stephany Silva</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Engineer</td>
+        </tr>
+    </table>
+</body>
+</html>
