@@ -28,7 +28,7 @@ header {
 }
 header > h1 {
     padding-top: 7vh;
-    font-size: 5.4vw;
+    font-size: 5.3vw;
     font-family: var(--font_personalized);
 }
 header > p {
@@ -42,7 +42,7 @@ header > p a {
     font-size: 2vh;
     font-family: var(--font_personalized);
 }
-a:hover {
+header > p a:hover {
     text-decoration: underline;
     font-weight: bolder;
 }
@@ -53,13 +53,15 @@ main {
     background-color: rgba(161, 210, 226, 0.700);
     padding-bottom: 20px;
     text-align: justify;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 /* Section configurations */
 article {
     background-color: white;
     min-width: 320px;
-    max-width: 1060px;
+    max-width: 1000px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
     box-shadow: 0px 0px 8px black;
@@ -67,14 +69,18 @@ article {
 }
 article > h2{
     font-family: var(--font_personalized);
-    font-size: 4em;
+    font-size: 3em;
     text-indent: 2vw;
     padding-top: 2vh;
     margin: auto;
+    text-align: center;
+    text-shadow: 0px 0px 3px;
 }
+
 article > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
+    font-weight: 540;
     line-height: 40px;
     padding: 1vh 2vw;
     text-indent: 25px;
@@ -96,11 +102,16 @@ li a {
     text-decoration: none;
     font-family: var(--font_personalized);
 }
+li a:hover {
+    background-color: #4d5551;
+    transition-duration: 600ms;
+    font-size: 1.2em;
+}
 ul#html_content {
-    background-image: linear-gradient(to right, #121413, transparent);
+    background-image: linear-gradient(to right, #111311, transparent);
 }
 ul#javascript_content {
-    background-image: linear-gradient(to right, #1F2444, transparent );
+    background-image: linear-gradient(to right, #1c1c1f, transparent );
 }
 ul#css_content {
     background-image: linear-gradient(to right, #181D26, transparent );
@@ -126,21 +137,33 @@ div#image_three {
 }
 
 /* Aside configurations */
+
+aside {
+    text-align: center;
+    padding-bottom: 2vh;
+}
 aside > h3 {
     font-family: var(--font_personalized);
-    font-size: 2em;
-    text-indent: 2vw;
+    font-size: 3em;
     padding-top: 2vh;
+    font-weight: bolder;
+}
+aside > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    line-height: 40px;
+}
+aside > p a {
+    display: block;
     margin: auto;
-}
-aside > ul li {
-    font-size: 1.5em;
-}
-aside > ul li a{
     color: black;
+    text-decoration: none;
+    font-family: var(--font_style);
 }
-aside > ul li a:hover{
-    background-image: linear-gradient(to right, rgb(224, 224, 224), transparent);
+aside > p a:hover{
+    background-color: rgb(168, 168, 168);
+    transition-duration: 600ms;
+    width: 100%;
 }
 
 /* footer configurations */
@@ -149,8 +172,8 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
+    font-size: 1em;
+    padding: 6px;
 }
 footer > p a {
     color: white;
