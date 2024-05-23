@@ -84,12 +84,13 @@ article > p {
 
 ul {
     list-style: none;
-    width: 400px;
+    /* width: 400px; */
 }
 li {
-    line-height: 8vh;
-    font-size: 4vh;
-    margin-left: 20px;
+    font-size: 1.3em;
+    line-height: 40px;
+    padding: 1vh 2vw;
+    text-indent: 25px;
 }
 li a {
     color: white;
@@ -99,40 +100,31 @@ li a {
 ul#html_content {
     background-image: linear-gradient(to right, #121413, transparent);
 }
-ul#css_content {
+ul#javascript_content {
     background-image: linear-gradient(to right, #1F2444, transparent );
 }
-ul#javascript_content {
+ul#css_content {
     background-image: linear-gradient(to right, #181D26, transparent );
 }
 
 /* Image configurations */
-/* img {
-    width: 100%;
-}
-picture {
-} */
-/* div#image_one {
-    background-image: url('../img/HTML.jpg');
+div.image {
+    padding: 30vh 0;
+    background-color: black;
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    height:50vh;
-    padding: 25vh 2vw 0;
+    background-size: cover;
+} 
+div#image_one {
+    background-image: url('../img/HTML.jpg');
 }
 div#image_two {
-    background: black url('/Assets/informations/img/landscape.jpg') no-repeat right center fixed;
-    background-size: cover;
-    height:50vh;
-    padding: 32vh 2vw 0;
+    background-image: url('../img/HTML_2.jpg');
 }
 div#image_three {
-    background: black url('/Assets/informations/img/HTML_2.jpg') no-repeat right center fixed;
-    background-size: cover;
-    height:50vh;
-    padding: 35vh 2vw 0;
-} */
+    background-image: url('../img/landscape.jpg');
+}
 
 /* Aside configurations */
 
