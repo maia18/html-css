@@ -70,7 +70,6 @@ main {
 /* Section configurations */
 section {
     text-align: justify;
-
 }
 section > h2{
     font-family: var(--font_personalized);
@@ -113,9 +112,17 @@ ul#javascript_content {
 }
 
 /* Image configurations */
-
+/* img {
+    width: 100%;
+}
+picture {
+} */
 div#image_one {
     background-image: url('../img/HTML.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height:50vh;
     padding: 25vh 2vw 0;
 }
