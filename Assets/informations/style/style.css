@@ -57,7 +57,7 @@ a:hover {
 main {
     background-color: white;
     max-width: 1000px;
-    min-width: 100px;
+    min-width: 400px;
     /* width: 50vw; */
     margin: auto;
     text-align: justify;
