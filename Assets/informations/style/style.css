@@ -106,16 +106,13 @@ li a {
 li a:hover {
     background-color: hsla(150, 5%, 32%, 0.500);
     transition-duration: 600ms;
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
-ul#html_content {
+ul#html_content, ul#css_content {
     background-image: linear-gradient(to right, #111311, transparent);
 }
 ul#javascript_content {
-    background-image: linear-gradient(to right, #1c1c1f, transparent );
-}
-ul#css_content {
-    background-image: linear-gradient(to right, #181D26, transparent );
+    background-image: linear-gradient(to right, hsla(240, 97%, 14%, 0.6), transparent );
 }
 
 /* Image configurations */
@@ -149,6 +146,7 @@ aside > h3 {
     font-size: 3em;
     padding-top: 2vh;
     font-weight: bolder;
+    text-shadow: 0px 0px 3px;   
 }
 aside > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
