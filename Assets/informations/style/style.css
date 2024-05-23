@@ -65,19 +65,19 @@ article {
     box-shadow: 0px 0px 8px black;
     margin: auto;
 }
-/* section > h2{
+article > h2 {
     font-family: var(--font_personalized);
     font-size: 4em;
     text-indent: 20px;
     padding: 2vh 2vw;
 }
-section > p, aside > p {
+article > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.3em;
     line-height: 40px;
     padding: 2vh 2vw;
     text-indent: 25px;
-} */
+}
 
 /* List configurations */
 
