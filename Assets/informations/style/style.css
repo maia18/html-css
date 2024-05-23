@@ -14,8 +14,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: var(--font_default);
 }
 body, html {
+    
     background-color: rgba(161, 210, 226, 0.700);
 }
 
@@ -107,19 +109,19 @@ ul#javascript_content {
 /* Image configurations */
 
 div#image_one {
-    background: black url('img/HTML.jpg') no-repeat right center fixed;
+    background: black url('/Assets/informations/img/HTML.jpg') no-repeat right center fixed;
     background-size: cover;
     height:50vh;
     padding: 25vh 2vw 0;
 }
 div#image_two {
-    background: black url('img/landscape.jpg') no-repeat right center fixed;
+    background: black url('/Assets/informations/img/landscape.jpg') no-repeat right center fixed;
     background-size: cover;
     height:50vh;
     padding: 32vh 2vw 0;
 }
 div#image_three {
-    background: black url('img/HTML_2.jpg') no-repeat right center fixed;
+    background: black url('/Assets/informations/img/HTML_2.jpg') no-repeat right center fixed;
     background-size: cover;
     height:50vh;
     padding: 35vh 2vw 0;
@@ -144,14 +146,15 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 1.5en;
-    padding: 10px;
+    font-size: 0.8em;
+    padding: 5px;
 }
-footer a {
+footer > p a {
     color: white;
+    font-weight: bolder;
     text-decoration: none;
 }
-footer a:hover {
+footer > p a:hover {
     text-decoration: underline;
-    font-weight: bolder;
+    color: var(--cor2);
 }
