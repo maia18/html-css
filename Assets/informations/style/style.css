@@ -68,22 +68,23 @@ article {
 article > h2 {
     font-family: var(--font_personalized);
     font-size: 4em;
-    text-indent: 20px;
-    padding: 2vh 2vw;
+    text-indent: 2vw;
+    padding-top: 2vh;
+    margin: auto;
 }
 article > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.32em;
+    font-size: 1.3em;
     line-height: 40px;
-    padding: 2vh 2vw;
+    padding: 1vh 2vw;
     text-indent: 25px;
 }
 
 /* List configurations */
 
-/* ul {
+ul {
     list-style: none;
-    width: 500px;
+    width: 400px;
 }
 li {
     line-height: 8vh;
@@ -103,7 +104,7 @@ ul#css_content {
 }
 ul#javascript_content {
     background-image: linear-gradient(to right, #181D26, transparent );
-} */
+}
 
 /* Image configurations */
 /* img {
