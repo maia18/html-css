@@ -17,7 +17,7 @@
     font-family: var(--font_default);
 }
 body, html {
-    
+    width: 100%;
     background-color: rgba(161, 210, 226, 0.700);
 }
 
