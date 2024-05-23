@@ -65,7 +65,7 @@ article {
     box-shadow: 0px 0px 8px black;
     margin: auto;
 }
-section > h2{
+/* section > h2{
     font-family: var(--font_personalized);
     font-size: 4em;
     text-indent: 20px;
@@ -77,11 +77,11 @@ section > p, aside > p {
     line-height: 40px;
     padding: 2vh 2vw;
     text-indent: 25px;
-}
+} */
 
 /* List configurations */
 
-ul {
+/* ul {
     list-style: none;
     width: 500px;
 }
@@ -103,7 +103,7 @@ ul#css_content {
 }
 ul#javascript_content {
     background-image: linear-gradient(to right, #181D26, transparent );
-}
+} */
 
 /* Image configurations */
 /* img {
@@ -111,7 +111,7 @@ ul#javascript_content {
 }
 picture {
 } */
-div#image_one {
+/* div#image_one {
     background-image: url('../img/HTML.jpg');
     background-position: right center;
     background-repeat: no-repeat;
@@ -131,11 +131,11 @@ div#image_three {
     background-size: cover;
     height:50vh;
     padding: 35vh 2vw 0;
-}
+} */
 
 /* Aside configurations */
 
-aside p{
+/* aside p{
     font-size: 1.5em;
 }
 aside > ul li a{
@@ -144,7 +144,7 @@ aside > ul li a{
 }
 aside > ul li a:hover{
     background-image: linear-gradient(to right, rgb(224, 224, 224), transparent);
-}
+} */
 
 /* footer configurations */
 
