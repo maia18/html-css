@@ -90,6 +90,7 @@ article > p {
 
 ul {
     list-style: none;
+    width: 400px;
 }
 li {
     font-size: 1.3em;
@@ -103,7 +104,7 @@ li a {
     font-family: var(--font_personalized);
 }
 li a:hover {
-    background-color: #4d5551;
+    background-color: hsla(150, 5%, 32%, 0.500);
     transition-duration: 600ms;
     font-size: 1.2em;
 }
@@ -118,6 +119,7 @@ ul#css_content {
 }
 
 /* Image configurations */
+
 div.image {
     padding: 30vh 0;
     background-color: black;
