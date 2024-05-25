@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms test</h1>
+    <form action="../Form001/register.php" method="get" autocomplete="on">
+        <p>
+            <label for="iyear">What year do you borned?</label>
+            <input type="number" name="year" id="iyear" min="1900" max="2024" value="2024" oninput="calcAge()">
+        </p>
+        <p>
+            <label for="iage">Age: </label>
+            <output id="iage"></output>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+    <script>
+        function calcAge() {
+            let actual = new Date().getFullYear()
+            iage.innerHTML = Number(actual) - Number(iyear.value)
+        }
+    </script>
+</body>
+</html>

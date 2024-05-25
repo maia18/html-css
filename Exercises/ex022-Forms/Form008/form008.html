@@ -7,14 +7,18 @@
 </head>
 <body>
     <h1>Forms test</h1>
-    <form action="../Form001/register.php" method="post" autocomplete="on">
+    <form action="../Form001/register.php" method="get" autocomplete="on">
         <p>
             <label for="num1">Number 1</label>
-            <input type="number" name="num1" id="num1">
+            <input type="number" name="num1" id="num1" min="0" max="50" required oninput="isum.innerHTML = Number(num1.value) + Number(num2.value)">
         </p>
         <p>
-            <label for="num1">Number 2</label>
-            <input type="number" name="num1" id="num1">
+            <label for="num2">Number 2</label>
+            <input type="number" name="num2" id="num2" min="0" max="50" required oninput="isum.innerHTML = Number(num1.value) + Number(num2.value)">
+        </p>
+        <p>
+            <label for="isum">Sum:</label>
+            <output name="isum" id="isum">0</output>
         </p>
         <p>
             <input type="submit" value="Submit">
