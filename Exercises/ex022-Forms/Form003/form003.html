@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms test</h1>
+    <form action="..//Form001/register.php" method="get" autocomplete="on">
+        <p>
+            <label for="iname">Name</label>
+            <input type="text" name="iname" id="iname" required placeholder="Full name" autocomplete="name">
+        </p>
+        <p>
+            <label for="iaverage">Average</label>
+            <input type="number" name="iaverage" id="iaverage" required min="0" max="10" step="0.1" value="5">
+        </p>
+        <p>
+            <label for="imonth">Class Month</label>
+            <input type="month" name="imonth" id="imonth" value="2024-05">
+        </p>
+        <p>
+            <label for="iday">Class Day</label>
+            <input type="date" name="iday" id="iday" value="2024-05-25">
+        </p>
+        <p>
+            <label for="ihour">Class hour</label>
+            <input type="time" name="ihour" id="ihour" value="12:30">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>

@@ -44,7 +44,8 @@ section#social_medias {
 /* Iframe configurations */
 
 section#phone > iframe {
-    width: 267px;
+    /* width: 267px; */
+    width: 268px;
     height: 472px;
     margin-top: 80px;
     margin-left: 22px; 
