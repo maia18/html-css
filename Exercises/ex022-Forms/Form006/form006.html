@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms test</h1>
+    <form action="../Form001/register.php" method="post" autocomplete="on">
+        <p>
+            <label for="icolor">Color</label>
+            <input type="color" name="icolor" id="icolor" value="#00ff00">
+        </p>
+        <p>
+            <label for="irange">Range</label>
+            <input type="range" name="irange" id="irange" min="0" max="10" value="0">
+        </p>
+        <p>
+            <label for="ifile">File</label>
+            <input type="file" name="ifile" id="ifile">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>

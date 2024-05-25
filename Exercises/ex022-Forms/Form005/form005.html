@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms test</h1>
+    <form action="../Form001/register.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sex</legend>
+            <input type="radio" name="sex" id="sxmasc" value="M"><label for="sxmasc">Masculine</label><br>
+            <input type="radio" name="sex" id="sxfemi" checked value="F"><label for="sxfemi">Feminine</label>
+        </fieldset>
+        <fieldset>
+            <legend>Favorite sports</legend>
+            <input type="checkbox" name="ifut" id="ifut" checked><label for="ifut">Football</label><br>
+            <input type="checkbox" name="ibas" id="ibas"><label for="ibas">Basketball</label><br>
+            <input type="checkbox" name="iten" id="iten"><label for="iten">Tennis</label><br>
+            <input type="checkbox" name="ivol" id="ivol"><label for="ivol">Volleyball</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
