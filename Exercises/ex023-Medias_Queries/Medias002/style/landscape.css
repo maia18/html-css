@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Landscape configurations */
+
+body {
+    background: red url('/Exercises/ex023-Medias_Queries/images/cev-landscape.jpg') no-repeat left bottom fixed;
+    background-size: cover;
+}

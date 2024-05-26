@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Portrait configurations */
+
+body {
+    background: gray url('/Exercises/ex023-Medias_Queries/images/cev-portrait.jpg') no-repeat center bottom fixed;
+    background-size: cover;
+}
