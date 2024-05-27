@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+/* Typical Devices breakpoints ( 27/05/2024 )
+
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+    
+*/
+
+/* Global configurations */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(218, 218, 218);
+}
+
+/* Header configurations */
+
+header {
+    background-color: rgba(128, 128, 128, 0.793);
+    margin-bottom: 10px;
+}
+header > h1 {
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+/* Menu configurations */
+
+span#menu {
+    background-color: rgb(116, 116, 116);
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    font-weight: bolder;
+    display: none;
+}
+span#menu:hover {
+    background-color: rgb(91, 91, 91);
+    cursor: pointer;
+}
+
+/* Nav configurations */
+
+nav {
+    padding-bottom: 10px;
+}
+nav > ul li {
+    background-color: rgb(81, 80, 80);
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+nav a:hover {
+    color: black;
+    transition-duration: 400ms;
+}
+
+/* Main configurations */
+
+main {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 20px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Article configurations */
+
+article h2 {
+    padding: 10px;
+}
+article p {
+    padding: 10px;
+    text-indent: 20px;
+}
+
+/* Screen configurations */
+
+@media screen and (min-width: 320px) and (max-width: 840px) {
+    main {
+        width: 578px;
+    }
+    nav {
+        display: none;
+    }
+    span#menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 841px) {
+    main {
+        width: 800px;  
+    }
+}
