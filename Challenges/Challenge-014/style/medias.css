@@ -62,7 +62,7 @@
     section#login > div#datas {
         float: left;
         width: 50%;
-        padding: 40px 10px;
+        padding: 60px 10px;
     }
     div#datas > h1 {
         text-align: center;
@@ -70,7 +70,7 @@
         font-size: 2.2em;
     }
     div#datas p {
-        font-size: 1.7em;
+        font-size: 1.3em;
         text-align: center;
     }
 
