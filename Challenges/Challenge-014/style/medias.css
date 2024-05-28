@@ -22,13 +22,14 @@
     }
     section#login > div#image {
         float: left;
-        width: 30%;
+        width: 40%;
         height: 500px;
     } 
 
     section#login > div#datas {
         float: right;
-        width: 70%;
+        width: 60%;
+        padding: 60px 10px;
     }
     div#datas > h1 {
         text-align: center;
@@ -36,7 +37,7 @@
         font-size: 2em;
     }
     div#datas p {
-        font-size: 1.8em;
+        font-size: 1.4em;
         text-align: center;
     }
     
@@ -61,6 +62,7 @@
     section#login > div#datas {
         float: left;
         width: 50%;
+        padding: 40px 10px;
     }
     div#datas > h1 {
         text-align: center;
@@ -82,7 +84,7 @@
     }
     section#login {
         width: 900px;
-        height: 56%;
+        height: 36%;
     }
     section#login > div#image {
         float: right;
