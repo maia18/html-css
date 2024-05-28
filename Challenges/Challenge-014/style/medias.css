@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* Typical Devices breakpoints ( 27/05/2024 )
+
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+    
+*/
+
+/* Small screens, laptops Configurations */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image: linear-gradient(to top, var(--color1), var(--color2));
+    }
+    section#login {
+        width: 90vw;
+        height: 35%;
+    }
+    section#login > div#image {
+        float: left;
+        width: 30%;
+        height: 500px;
+    } 
+
+    section#login > div#datas {
+        float: right;
+        width: 70%;
+    }
+    div#datas > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    div#datas p {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+}
+
+/* Desktops, large screens Configurations */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        background-image: linear-gradient(to top, var(--color1), var(--color2));
+    }
+    section#login {
+        width: 800px;
+        height: 40%;
+    }
+    section#login > div#image {
+        float: right;
+        width: 50%;
+        height: 515px;
+    } 
+
+    section#login > div#datas {
+        float: left;
+        width: 50%;
+    }
+    div#datas > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2.2em;
+    }
+    div#datas p {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+}
+
+/* Extra large screens, TV Configurations */
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-image: linear-gradient(to top, var(--color1), var(--color2));
+    }
+    section#login {
+        width: 900px;
+        height: 36%;
+    }
+    section#login > div#image {
+        float: right;
+        width: 50%;
+        height: 350px;
+    } 
+
+    section#login > div#datas {
+        float: left;
+        width: 50%;
+    }
+    div#datas > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2.6em;
+    }
+    div#datas p {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+}
