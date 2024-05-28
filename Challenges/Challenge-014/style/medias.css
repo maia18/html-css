@@ -18,7 +18,7 @@
     }
     section#login {
         width: 90vw;
-        /* height: 35%; */
+        height: 50%;
     }
     section#login > div#image {
         float: left;
@@ -50,7 +50,7 @@
     }
     section#login {
         width: 800px;
-        /* height: 40%; */
+        height: 50%;
     }
     section#login > div#image {
         float: right;
@@ -82,7 +82,7 @@
     }
     section#login {
         width: 900px;
-        /* height: 36%; */
+        height: 56%;
     }
     section#login > div#image {
         float: right;
