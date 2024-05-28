@@ -22,13 +22,14 @@
     }
     section#login > div#image {
         float: left;
-        width: 40%;
-        height: 500px;
+        width: 40vw;
+        height: 100vh;
     } 
 
     section#login > div#datas {
         float: right;
-        width: 60%;
+        width: 50vw;
+        /* height: 50vh; */
         padding: 60px 10px;
     }
     div#datas > h1 {
