@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Global Configurations */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(137, 214, 203);
+}
+
+/* Main Configurations */
+
+main {
+    padding: 6px;
+}
+main > div.bloco-1 {
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+main > div.bloco-2 {
+    background-color: lightsalmon;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+main > div.bloco-3 {
+    background-color: rgb(82, 186, 221);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Flexbox Configurations */
+
+main.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+}
