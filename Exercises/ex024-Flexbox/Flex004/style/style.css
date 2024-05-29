@@ -8,12 +8,16 @@
 
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between; */
+    flex-flow: row wrap;
 
     background-color: rgb(247, 207, 120);
-    height: 500px;
+    /* height: 500px; */
+    /* width: 500px; */
     padding-top: 16px;
 }
 
@@ -25,13 +29,35 @@
     text-shadow: 1px 2px 3px black;
     font-size: 1.2em;
 
-    width: 100px;
-    height: 100px;
+    /* width: 100%; */
+    height: 200px;
 
-    margin: 10px;
+    /* margin-bottom: 10px; */
+
+    flex: 1 0 320px; /* flex-grow flex-shrink flex-basis */
+}
+.flex-item:nth-child(1) {
+    background-color: rgb(73, 151, 148);
+
+    order: 3;
+}
+.flex-item:nth-child(2) {
+    background-color: rgb(104, 73, 151);
+
+    order: 2;
 }
 .flex-item:nth-child(3) {
-    background-color: rgb(150, 241, 241);
-    width: 120px;
-    height: 120px;
+    background-color: rgb(151, 73, 95);
+ 
+    order: 1;
+}
+.flex-item:nth-child(4) {
+    background-color: rgb(223, 109, 109);
+
+    order: 0;
+}
+.flex-item:nth-child(5) {
+    background-color: rgb(87, 151, 73);
+ 
+    order: -1;
 }

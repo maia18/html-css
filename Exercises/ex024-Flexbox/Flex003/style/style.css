@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    background-color: rgb(247, 207, 120);
+    height: 500px;
+    padding-top: 16px;
+}
+
+.flex-item {
+    background-color: rgb(253, 124, 124);
+    color: white;
+
+    text-align: center;
+    text-shadow: 1px 2px 3px black;
+    font-size: 1.2em;
+
+    width: 100px;
+    height: 100px;
+
+    margin: 10px;
+}
+.flex-item:nth-child(3) {
+    background-color: rgb(150, 241, 241);
+    width: 120px;
+    height: 120px;
+}
