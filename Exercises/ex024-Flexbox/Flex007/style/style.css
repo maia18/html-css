@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 20px 50px; /* row-gap: 20px;
+                       column-gap: 50px; */
+
+    background-color: rgb(164, 252, 252);
+    height: 600px;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(254, 175, 187);
+}
+
+.item:nth-child(2) {
+    flex: 1 2 20px; /* flex-grow: 1;
+                       flex-shrink: 2;
+                       flex-basis: 20px; */
+    align-self: flex-start;
+
+    order: -1;
+}
