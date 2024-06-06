@@ -61,7 +61,7 @@
     width: fit-content;
 }
 .shape {
-    background-color: #ffe8b4;
+    background-color: var(--color-primary-2);
     width: 50%;
     height: 100%;
     position: absolute;
