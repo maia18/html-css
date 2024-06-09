@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+main.container {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+
+    width: 90vw;
+    margin: auto;
+}
+
+div.content {
+    font-family: "Sono", monospace;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+div.content > h2 {
+    font-family: "PT Sans", sans-serif;
+
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+
+
+
+div.image {
+    display: flex;
+
+    background-color: red;
+    margin: 4rem 2rem;
+}
+div.image img{
+    width: 25vw;
+    margin: auto;
+
+}
