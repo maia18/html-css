@@ -7,7 +7,7 @@ header {
     align-items: center;
 
     background-color: aqua;
-    width: 100vw;
+    max-width: 100%;
     
     padding: 1.5rem;
     max-height: 120px;

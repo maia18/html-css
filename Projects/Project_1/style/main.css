@@ -9,7 +9,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 3rem;
+    gap: 1.1rem;
 
     width: 90vw;
     margin: auto;
@@ -19,26 +19,83 @@ div.content {
     font-family: "Sono", monospace;
     font-size: 1.5rem;
     font-weight: 500;
+    text-align: justify;
+
+    padding: 1rem;
 }
 
 div.content > h2 {
     font-family: "PT Sans", sans-serif;
-
     font-size: 3rem;
+
+    padding: 1rem 0;
     text-transform: uppercase;
 }
-
-
-
-
 div.image {
     display: flex;
+    justify-self: center;
 
-    background-color: red;
     margin: 4rem 2rem;
 }
 div.image img{
     width: 25vw;
     margin: auto;
+}
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        gap: 0rem;
+    
+        width: 100vw;
+        margin: auto;
+
+        /* background-color: yellow; */
+        border-radius: 1rem;
+
+    }    
+    div.content {
+        font-family: "Sono", monospace;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 2rem;
+
+        /* background-color: red; */
+        padding: 1rem;
+    }
+    div.content > h2 {
+        display: none;
+    }
+    div.image {
+        justify-content: center;
+        /* background-color: blue; */
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
+    }
+    div.image img{
+        width: 30vw;
+    }
+    button[type='button'] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 16px auto 8px;
+        /* padding: 0.3rem; */
+
+        width: 40%;
+        font-size: 1.2rem;
+        font-weight: 500;
+
+        border: none;
+        background-color: rgba(146, 146, 146, 0.53);
+        border-radius: 8px;
+
+        overflow: hidden;
+    }
 }
