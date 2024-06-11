@@ -21,9 +21,8 @@
     box-sizing: border-box;
     font-family: "Abel", sans-serif;
 }
-
 body {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     font-size: 100%;
     background-color: rgba(200, 246, 230, 0.502);

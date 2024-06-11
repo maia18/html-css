@@ -5,13 +5,14 @@ main.container {
     flex-direction: column;
 }
 
-section {
+section.full-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 1.1rem;
 
     width: 90vw;
+    height: 90vh;
     margin: auto;
 }
 
@@ -41,21 +42,50 @@ div.image img{
     width: 25vw;
     margin: auto;
 }
+button[type='button'] {
+    display: flex;
+    justify-content: center;
+
+    margin: 1rem 0;
+    padding: 0rem;
+
+    width: 40%;
+
+    border: none;
+    background-color: rgba(150, 150, 150, 0.609);
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+button[type='button']:hover {
+    background-color: rgba(146, 146, 146, 0.741);
+    cursor: pointer;
+}
+button[type='button'] > a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    section {
+    /* body {
+        width: 100vw;
+        height: 100vh;
+    } */
+    section.full-content {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        /* flex-wrap: wrap; */
 
         gap: 0rem;
     
         width: 100vw;
         margin: auto;
 
-        /* background-color: yellow; */
-        border-radius: 1rem;
-
+        background-color: yellow;
+        /* border-radius: 1rem; */
     }    
     div.content {
         font-family: "Sono", monospace;
@@ -72,30 +102,57 @@ div.image img{
     }
     div.image {
         justify-content: center;
+        align-items: center;
         /* background-color: blue; */
         width: 100%;
         margin: auto;
         padding: 1rem;
     }
     div.image img{
-        width: 30vw;
+        width: 66vw;
     }
+    section#css-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: auto;
+
+    }
+    section#js-content {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    section#js-content #image-js{
+        border-radius: 50%;
+        margin: auto;
+        overflow: hidden;
+    }   
     button[type='button'] {
         display: flex;
         justify-content: center;
         align-items: center;
 
         margin: 16px auto 8px;
-        /* padding: 0.3rem; */
+        padding: 0rem;
 
         width: 40%;
-        font-size: 1.2rem;
-        font-weight: 500;
+
 
         border: none;
-        background-color: rgba(146, 146, 146, 0.53);
+        background-color: rgba(150, 150, 150, 0.609);
         border-radius: 8px;
 
         overflow: hidden;
+    }
+    button[type='button']:hover {
+        background-color: rgba(146, 146, 146, 0.741);
+        cursor: pointer;
+    }
+    button[type='button'] > a {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: black;
+        text-decoration: none;
     }
 }
